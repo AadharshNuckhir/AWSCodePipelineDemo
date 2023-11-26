@@ -1,7 +1,3 @@
-# Install, where the runtime will be set up. Here we are using .NET 6.0
-# Prebuild commands – This is usually where the .NET restore commands would go. Here we are trying to restore the NuGet packages related to our project. Also, be careful about the location of the csproj file.
-# Build Command – The normal dotnet build command.
-# Post Build – You can add the publish command here, as well as any test commands if you have some unit test projects ready. Note that here, we are publishing the application in Release mode to the app folder of the root directory.
 version: 0.2
 phases:
   install:
