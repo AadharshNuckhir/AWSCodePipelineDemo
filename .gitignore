@@ -1,5 +1,47 @@
-﻿################################################################################
-# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
-################################################################################
+# .NET-specific
+*.obj
+*.pdb
+*.user
+*.vscode
+*.vs
+*.suo
+*.cache
+*.dll
+*.exe
+bin/
+obj/
+appsettings.Development.json
+appsettings.Production.json
 
-/obj
+# Visual Studio code files
+.vscode/
+*.sln.cache
+*.suo
+*.csproj.user
+
+# User-specific files
+*.userprefs
+*.suo
+*.sln.docstates
+
+# Packages
+*.nupkg
+*.paket/paket.exe
+*.paket/paket.targets
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+/.vs
+/.gitignore
+
+# Ignore specific file types
+*.log
+*.tmp
